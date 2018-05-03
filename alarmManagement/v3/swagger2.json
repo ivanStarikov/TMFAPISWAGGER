@@ -601,7 +601,12 @@
           "format": "int64"
         },
         "event": {
-          "$ref": "#/definitions/alarm"
+          "type": "object",
+          "properties": {
+            "alarm": {
+              "$ref": "#/definitions/alarm"
+            }
+          }
         }
       }
     },
@@ -621,7 +626,12 @@
           "format": "int64"
         },
         "event": {
-          "$ref": "#/definitions/alarm"
+          "type": "object",
+          "properties": {
+            "alarm": {
+              "$ref": "#/definitions/alarm"
+            }
+          }
         }
       }
     },
@@ -641,7 +651,12 @@
           "format": "int64"
         },
         "event": {
-          "$ref": "#/definitions/alarm"
+          "type": "object",
+          "properties": {
+            "alarm": {
+              "$ref": "#/definitions/alarm"
+            }
+          }
         }
       }
     },
@@ -661,7 +676,12 @@
           "format": "int64"
         },
         "event": {
-          "$ref": "#/definitions/alarm"
+          "type": "object",
+          "properties": {
+            "alarm": {
+              "$ref": "#/definitions/alarm"
+            }
+          }
         }
       }
     },
